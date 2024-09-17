@@ -1,0 +1,27 @@
+DOM => document object model
+
+In this our full page source element etc everything store in the for of object or value 
+
+DOM manipulation => To change element of the dom 
+
+
+USE of DOM =>
+
+** To access elements => document.  by (.) operator
+
+(Changing properties)=>
+
+innerHTML => by it we will change text and add something in element , it show everything
+
+innerText => by it only able to change text , it all about text 
+
+
+Change h1 text by js with 
+
+document.body.children[0].innerHTML='<i>satyam</i>'
+document.body.children[0].innerText='MAHADEV'
+
+
+Changing img by js
+
+document.body.children[4].src='NEW img address'
